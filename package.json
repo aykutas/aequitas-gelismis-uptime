@@ -5,7 +5,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "discord.js": "^12.5.3",
-    "croxydb": "^0.0.7"
+    "croxydb": "^0.0.7",
+    "node-fetch": "^2.6.1",
   },
   "engines": {
     "node": "12.x"
