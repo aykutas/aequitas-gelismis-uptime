@@ -50,6 +50,7 @@ if(!ekleniceklink) return message.channel.send(aequitasembed.setDescription(`�
 if(!ekleniceklink.includes('.glitch.me')) return message.channel.send(aequitasembed.setDescription(`📍 | Lütfen geçerli bir glitch linki girin!`).setColor("RED"));
 if(eklenenlink.find(a => a.url === ekleniceklink)) return message.channel.send(aequitasembed.setDescription(`📍 | Bu bot zaten uptime ediliyor!`).setColor("RED"));
 message.channel.send(aequitasembed.setImage(`https://cdn.discordapp.com/attachments/844518499220848660/846892457266380900/aequitasuptime.gif`).setColor("#FFFFFE"))
+message.react("⚡");
 aequitasdatabase.push("dblink", { url: ekleniceklink }).catch(e => {})};
   
 
