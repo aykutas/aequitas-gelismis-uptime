@@ -33,7 +33,6 @@ izleneceklink.forEach(link => { try { fetch(link) } catch (e) {}})}, 60000);
 
 
 if(komut[0].toLowerCase() === "yardım") {
-	aequitasdatabase.deleteAll()
 message.channel.send(aequitasembed.setTitle(`> __**∞ Aequitas Uptime Yardım Menüsü ∞**__`).setDescription(`
 > ◽ \`uptime\`: Botunuzu uptime eder.
 > ◽ \`botsay\`: Uptime edilen bot sayısını gösterir.
